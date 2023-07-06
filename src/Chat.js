@@ -54,7 +54,7 @@ export function Chat() {
     event.preventDefault();
     addNewBubble("U", input, input.trim() !== "");
     if (input !== "") {
-      post(input).then((r) => addNewBubble("B", r, true));
+      post(input).then((r) => addNewBubble("B", r.response, true));
     }
     document.getElementById("form").reset();
     setInput("");

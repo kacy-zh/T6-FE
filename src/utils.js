@@ -15,7 +15,7 @@ export default async function post(input) {
     };
 
     const post = await fetch(
-      "https://udmjqk9rl1.execute-api.ap-southeast-2.amazonaws.com/api/extract-information",
+      "http://127.0.0.1:5000/api/extract-information",
       requestOptions
     );
     const data = await post.json();
