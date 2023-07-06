@@ -8,7 +8,7 @@ import FormControl from "@mui/material/FormControl";
 
 import user_img from "./user.png";
 import bot_img from "./bot.png";
-import send from "./send.svg";
+import send from "./send.png";
 import post from "./utils.js";
 
 /**

@@ -14,8 +14,29 @@ table img {
   height: 50px;
 }
 
+img {
+  width: 35px;
+  height: 35px;
+}
+
 td {
   text-align: justify;
+}
+
+.Hover {
+  margin: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+}
+.Hover div {
+  display: none;
+  padding: 5px 5px 5px 10px;
+}
+
+.Hover:hover div {
+  display: block;
 }
 
 .App {
